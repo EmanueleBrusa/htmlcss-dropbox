@@ -11,12 +11,24 @@ a{
     text-decoration: none;
     color: black;
     font-size: 17px;
-    font-weight: 600;
+    
 }
 a:hover{
     text-decoration: underline;
 }
+.button {
+    background-color: rgb(0, 97, 255);
+    border: none;
+    color: white;
+    padding: 7px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
 /*fine utilities*/
+
 /*inizio header*/
 header{
 width: 100%;
@@ -35,17 +47,6 @@ align-items: center;
     justify-content: space-around;
     align-items: center;
 }
-.button {
-    background-color: rgb(0, 97, 255);
-    border: none;
-    color: white;
-    padding: 7px 17px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-}
 /*fine header*/
 
 /*inizio main*/
@@ -60,23 +61,36 @@ align-items: center;
 }
 #main-first-row{
     width: 70%;
-    height: 40%;
-    background-color: blue;
+}
+#first-col-row{
+    font-weight: bold;
+    font-size: 70px;
+    padding: 115px 50px 0px 90px;
 }
 #main-second-row{
     width: 70%;
-    height: 60%;
-    background-color: aliceblue;
     display: flex;
 }
 #first-col-second-row{
     width: 40%;
-    height: 100%;
-    background-color: black;
+    flex-direction: column;
+}
+#first-col-second-row p{
+    padding: 50px 110px 50px 50px;
+}
+#first-col-second-row button{
+    margin: 0px 50px 0px 50px;
+    padding: 15px 17px;
 }
 #second-col-second-row{
     width: 60%;
-    height: 100%;
-    background-color: deeppink;
+    position: relative;
+}
+#jumbo-image{
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    top: 50px;
+    right: 100px;
 }
 /*fine main*/
