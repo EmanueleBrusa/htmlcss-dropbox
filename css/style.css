@@ -50,6 +50,8 @@ align-items: center;
 /*fine header*/
 
 /*inizio main*/
+
+/*prima sezione*/
 .jumbotron{
     width: 100%;
     height: 750px;
@@ -93,4 +95,12 @@ align-items: center;
     top: 50px;
     right: 100px;
 }
+#arrow{
+    font-size: 50px;
+}
+/*fine prima sezione*/
+
+/*inizio seconda sezione*/
+
+/*fine seconda sezione*/
 /*fine main*/
