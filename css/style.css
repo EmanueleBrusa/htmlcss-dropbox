@@ -113,12 +113,16 @@ align-items: center;
     background-color: chocolate;
     margin-top: 150px;
     margin-bottom: 20px;
+    display: flex;
+    align-items: center;
 }
 #second-business-row{
     width: 55%;
     height: 100px;
     background-color: aqua;
     margin-bottom: 20px;
+    display: flex;
+    align-items: center;
 }
 #third-business-row{
     display: flex;
@@ -132,11 +136,28 @@ align-items: center;
     width: 30%;
     height: 100%;
     background-color: gold;
+    border: 1px solid grey;
 }
 #fourth-business-row{
     width: 55%;
     height: 300px;
     background-color: darkgreen;
 }
+.top-table{
+    width: 100%;
+    height: 40px;
+    background-color: fuchsia;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+i{
+    padding-right: 5px;
+}
 /*fine seconda sezione*/
+
+/*inizio terza sezione*/
+
+/*fine terza sezione*/
 /*fine main*/
