@@ -90,17 +90,53 @@ align-items: center;
 }
 #jumbo-image{
     width: 800px;
-    height: 500px;
+    height: 530px;
     position: absolute;
-    top: 50px;
+    top: 58px;
     right: 100px;
 }
 #arrow{
     font-size: 50px;
+    margin-bottom: 20px;
 }
 /*fine prima sezione*/
 
 /*inizio seconda sezione*/
-
+#business-sec{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#first-business-row{
+    width: 55%;
+    height: 100px;
+    background-color: chocolate;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+#second-business-row{
+    width: 55%;
+    height: 100px;
+    background-color: aqua;
+    margin-bottom: 20px;
+}
+#third-business-row{
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    height: 800px;
+    background-color: brown;
+    margin-bottom: 20px;
+}
+.business-option{
+    width: 30%;
+    height: 100%;
+    background-color: gold;
+}
+#fourth-business-row{
+    width: 55%;
+    height: 300px;
+    background-color: darkgreen;
+}
 /*fine seconda sezione*/
 /*fine main*/
