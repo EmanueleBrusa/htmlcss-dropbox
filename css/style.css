@@ -7,13 +7,13 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 /*utilities*/
-a{
+.normal{
     text-decoration: none;
     color: black;
     font-size: 17px;
     
 }
-a:hover{
+.normal:hover{
     text-decoration: underline;
 }
 .button {
@@ -26,6 +26,19 @@ a:hover{
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
+}
+.type{
+    font-weight: 600;
+    font-size: 25px;
+}
+.price{
+    font-weight: bold;
+    font-size: 15px;
+}
+.month{
+    font-size: smaller;
+    font-weight: lighter;
+    color: gray;
 }
 /*fine utilities*/
 
@@ -63,41 +76,48 @@ align-items: center;
 }
 #main-first-row{
     width: 70%;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 30px;
 }
 #first-col-row{
     font-weight: bold;
     font-size: 70px;
-    padding: 115px 50px 0px 90px;
 }
 #main-second-row{
     width: 70%;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 80px;
     display: flex;
 }
 #first-col-second-row{
-    width: 40%;
+    width: 30%;
     flex-direction: column;
 }
 #first-col-second-row p{
-    padding: 50px 110px 50px 50px;
+    margin-bottom: 20px;
+    position: relative;
 }
 #first-col-second-row button{
-    margin: 0px 50px 0px 50px;
-    padding: 15px 17px;
+    padding: 15px 15px 15px 15px;
+    margin-bottom: 20px;
 }
 #second-col-second-row{
     width: 60%;
     position: relative;
 }
 #jumbo-image{
-    width: 800px;
-    height: 530px;
+    width: 120%;
+    height: 160%;
     position: absolute;
-    top: 58px;
-    right: 100px;
+    top: 10;
+    right: 10;
 }
 #arrow{
     font-size: 50px;
-    margin-bottom: 20px;
+    position: absolute;
+    top: 150px;
 }
 /*fine prima sezione*/
 
@@ -109,8 +129,6 @@ align-items: center;
 }
 #first-business-row{
     width: 55%;
-    height: 100px;
-    background-color: chocolate;
     margin-top: 150px;
     margin-bottom: 20px;
     display: flex;
@@ -118,8 +136,6 @@ align-items: center;
 }
 #second-business-row{
     width: 55%;
-    height: 100px;
-    background-color: aqua;
     margin-bottom: 20px;
     display: flex;
     align-items: center;
@@ -128,26 +144,79 @@ align-items: center;
     display: flex;
     justify-content: space-between;
     width: 55%;
-    height: 800px;
-    background-color: brown;
     margin-bottom: 20px;
+}
+.section{
+    padding: 40px 20px 20px 20px;
+    line-height: 33px;
+}
+.section-two p{
+    font-size: 14px;
+    padding-top: 10px;
+}
+.section-two{
+    padding: 10px 20px 20px 20px;
+}
+.button-sec{
+    padding: 20px 20px 20px 40px;
+}
+.button-sec .button{
+    width: 90%;
+    height: 40px;
+}
+.link-sec{
+    padding-left: 20px;
+}
+hr{
+    width: 15%;
+    color: gray;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+li{
+    list-style-type: none;
+    padding-top: 20px;
+}
+.list p{
+    font-weight: bold;
+}
+.list{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: smaller;
 }
 .business-option{
     width: 30%;
-    height: 100%;
-    background-color: gold;
     border: 1px solid grey;
 }
 #fourth-business-row{
     width: 55%;
-    height: 300px;
-    background-color: darkgreen;
+}
+#sub-row{
+    display: flex;
+    width: 100%; 
+}
+#fourth-title{
+    width: 70%;
+    padding: 4%;
+    line-height: 40px;
+}
+#fourth-button{
+    width: 30%;
+    padding-top: 3%;
+    padding-left: 5%;
+}
+#fourth-button .button{
+    padding: 12px 30px;
+}
+#fourth-title p{
+    line-height: normal;
+    padding-top: 40px;
 }
 .top-table{
     width: 100%;
-    height: 40px;
-    background-color: fuchsia;
     border-bottom: 1px solid grey;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,9 +224,55 @@ align-items: center;
 i{
     padding-right: 5px;
 }
+
 /*fine seconda sezione*/
 
 /*inizio terza sezione*/
-
+#partner-dropbox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#partner-row{
+    width: 55%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+}
+#partner-col{
+    width: 60%;
+}
+#test-col{
+    width: 40%;
+    padding: 50px;
+}
+#partner-image{
+    width: 100%;
+    height: 100%;
+}
+#white-button{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    padding: 9px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#title-fourth-sec{
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 22px;
+}
+#text-fourth-sec{
+    padding-bottom: 20px;
+}
 /*fine terza sezione*/
+
+/*inizio quarta sezione*/
+
+/*fine quarta sezione*/
+
+/*inizio quinta sezione*/
+
+/*fine quinta sezione*/
 /*fine main*/
