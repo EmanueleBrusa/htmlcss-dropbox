@@ -301,6 +301,22 @@ i{
 /*fine quarta sezione*/
 
 /*inizio quinta sezione*/
-
+#fifth-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+}
+#info-row{
+    width: 55%;
+}
+#info-row h2{
+    font-size: 40px;
+    font-weight: 600;
+    padding-right: 300px;
+}
+#info-row a{
+    line-height: 180px;
+}
 /*fine quinta sezione*/
 /*fine main*/
