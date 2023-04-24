@@ -460,5 +460,47 @@ i{
 /*fine main*/
 
 /*inizio footer*/
-
+.footer-container{
+    width: 100%;
+    background-color: black;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-row{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.col-section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: calc(100% / 5 - 40px);
+    height: fit-content;
+    margin: 0px 20px 0px 20px;
+}
+.ita{
+    color: gray;
+    padding-left: 18px;
+    padding-top: 60px;
+}
+.footer-row i{
+    padding: 7px 10px 10px 10px;
+}
+.footer-col p, a{
+    color: white;
+    text-decoration: none;
+}
+.footer-col p{
+    font-weight: bold;
+    font-size: 25px;
+}
+.footer-col a:hover{
+    text-decoration: underline;
+}
 /*fine footer*/
