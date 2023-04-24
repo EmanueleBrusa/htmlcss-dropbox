@@ -116,6 +116,7 @@ align-items: center;
 }
 #arrow{
     font-size: 50px;
+    font-weight: bolder;
     position: absolute;
     top: 150px;
 }
@@ -431,6 +432,33 @@ i{
 /*fine sesta sezione*/
 
 /*inizio settima sezione*/
-
+.faq-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+    margin-bottom: 200px;
+}
+.faq-row{
+    width: 55%; 
+}
+.faq-row hr{
+    width: 100%;
+    margin: 30px 0px 30px 0px;
+}
+.faq-row h1{
+    margin-bottom: 60px;
+}
+.faq-row h2{
+    font-size: 17px;
+    font-weight: 700;
+    padding-right: 300px;
+    display: inline-block;
+}
 /*fine settima sezione*/
+
 /*fine main*/
+
+/*inizio footer*/
+
+/*fine footer*/
