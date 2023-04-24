@@ -111,8 +111,8 @@ align-items: center;
     width: 120%;
     height: 160%;
     position: absolute;
-    top: 10;
-    right: 10;
+    top: 0;
+    left: 0;
 }
 #arrow{
     font-size: 50px;
@@ -492,11 +492,11 @@ i{
 .footer-row i{
     padding: 7px 10px 10px 10px;
 }
-.footer-col p, a{
+.footer-col h2, a{
     color: white;
     text-decoration: none;
 }
-.footer-col p{
+.footer-col h2{
     font-weight: bold;
     font-size: 25px;
 }
